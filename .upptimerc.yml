@@ -10,6 +10,8 @@ sites:
     url: $PI_MAIN_API_URL
     maxResponseTime: 5000
     __dangerous__body_down: "<html"
+    assignees:
+      - positive-infinity
   - name: pi-alt1
     url: $PI_ALT1_API_URL
     maxResponseTime: 20000
