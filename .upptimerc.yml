@@ -10,28 +10,46 @@ sites:
     url: $PI_MAIN_API_URL
     maxResponseTime: 5000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
     assignees:
       - positive-infinity
   - name: pi-alt1
     url: $PI_ALT1_API_URL
     maxResponseTime: 20000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
   - name: pi-alt2
     url: $PI_ALT2_API_URL
     maxResponseTime: 20000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
   - name: tk
     url: $TK_API_URL
     maxResponseTime: 5000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
   - name: ma
     url: $MA_API_URL
     maxResponseTime: 15000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
   - name: wiki
     url: $WIKI_API_URL
     maxResponseTime: 15000
     __dangerous__body_down: "<html"
+    expectedStatusCodes:
+      - 0
+      - 200
 
 workflowSchedule:
   graphs: "0 0 * * *"
