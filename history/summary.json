@@ -6,15 +6,17 @@
     "slug": "pi-main",
     "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 1994,
-    "timeDay": 1268,
-    "timeWeek": 1371,
-    "timeMonth": 1585,
+    "timeDay": 1240,
+    "timeWeek": 1366,
+    "timeMonth": 1583,
     "timeYear": 1860,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-31": 5
+    }
   }
 ]
