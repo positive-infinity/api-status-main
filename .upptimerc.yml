@@ -13,12 +13,12 @@ sites:
       
 workflowSchedule:
   graphs: "0 0 * * *"
-  responseTime: "*/5 * * * *"
+  responseTime: "* */6 * * *"
   staticSite: "0 1 * * *"
   summary: "0 0 * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/57 * * * *"
+  uptime: "*/5 * * * *"
   
 status-website:
   theme: night
